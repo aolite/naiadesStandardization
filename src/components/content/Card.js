@@ -36,6 +36,10 @@ const useStyles = makeStyles({
 export default function MediaCard(props) {
   const classes = useStyles();
 
+  const onHandleClickUrl = () =>{
+    console.log('Click...'+ props.url);
+  };
+
   return (
     <Card className={classes.card}>
       <CardActionArea>
@@ -52,17 +56,23 @@ export default function MediaCard(props) {
             {props.description}
           </Typography>
 
-          <Typography variant="body2" color="textSecondary" component="p">
-              <b>Nexus</b>
-          </Typography>
-          <div className={classes.p}>
           {
-              !props.nexus? null:
-                    props.nexus.map((item, index) =>(
-                        <Chip  key={index} color="primary" label={item} />
-                    ))
+            /** TODO: Code duplicate, we need to define a new module with corresponding props**/
+            !props.nexus? null: (
+                <>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    <b>Nexus</b>
+                  </Typography>
+                  <div className={classes.p}>
+                    {
+                      props.nexus.map((item, index) =>(
+                          <Chip  key={index} color= "primary" label={item} />
+                      ))
+                    }
+                  </div>
+                </>
+            )
           }
-          </div>
 
           {
               !props.domain? null: (
@@ -84,8 +94,8 @@ export default function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Learn More
+        <Button size="small" color="primary" onClick={onHandleClickUrl}>
+          Read More
         </Button>
       </CardActions>
     </Card>

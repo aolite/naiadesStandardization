@@ -33,6 +33,8 @@ export default function CardGrid(props) {
                             title= {dataItem.title}
                             description = {dataItem.description}
                             nexus = {dataItem.nexus}
+                            domain = {dataItem.domain}
+                            url = {dataItem.url}
                         />
                     </Grid>
                 ))
