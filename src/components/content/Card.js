@@ -5,9 +5,9 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Chip from '@material-ui/core/Chip';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import {CardChip} from "./CardChip";
 
 const useStyles = makeStyles({
   card: {
@@ -56,40 +56,8 @@ export default function MediaCard(props) {
             {props.description}
           </Typography>
 
-          {
-            /** TODO: Code duplicate, we need to define a new module with corresponding props**/
-            !props.nexus? null: (
-                <>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    <b>Nexus</b>
-                  </Typography>
-                  <div className={classes.p}>
-                    {
-                      props.nexus.map((item, index) =>(
-                          <Chip  key={index} color= "primary" label={item} />
-                      ))
-                    }
-                  </div>
-                </>
-            )
-          }
-
-          {
-              !props.domain? null: (
-                <>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    <b>Domain</b>
-                  </Typography> 
-                  <div className={classes.p}>
-                    {
-                      props.domain.map((item, index) =>(
-                        <Chip  key={index} color= "default" label={item} />
-                      ))
-                    }
-                  </div>
-                </>
-              )
-          }
+          <CardChip title="Nexus" data={props.nexus}/>
+          <CardChip title="Domain" data={props.domain}/>
           
         </CardContent>
       </CardActionArea>

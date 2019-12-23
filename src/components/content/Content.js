@@ -1,23 +1,28 @@
-import React, {useState, useEffect} from 'react'
-import Data from '../../data/standards.json'
+import React from 'react'
+
 
 import CardGrid from './CardGrid'
+import {DataFetcher} from "./DataFetcher";
+import CircularProgress from "@material-ui/core/CircularProgress";
 
-export default function Content (props){
-
-    const [data, setData] = useState ({ });
-
-    useEffect(() => {
-        setData (Data)
-    }, [])
+export default function Content (){
 
     return (
-        <>
-            <h1> Water Standardization LandScape</h1>
-            <h2>Map</h2>
-            <h2>Standards</h2>
-            <CardGrid data= {data}/>
-            <h2>SDOs</h2>
-        </>
+        <DataFetcher>
+            {
+                (obj) => {
+                    return (
+                        obj.loading ? <CircularProgress color="secondary" /> :
+                        <>
+                            <h1> Water Standardization LandScape</h1>
+                            <h2>Map</h2>
+                            <h2>Standards</h2>
+                            <CardGrid data= {obj.data}/>
+                            <h2>SDOs</h2>
+                        </>
+                    )
+                }
+            }
+        </DataFetcher>
     )
 }
