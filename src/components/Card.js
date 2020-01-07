@@ -37,27 +37,22 @@ export default function MediaCard(props) {
   const classes = useStyles();
 
   const onHandleClickUrl = () =>{
-    console.log('Click...'+ props.url);
+    console.log('Click...'+ props.item.url);
   };
 
   return (
     <Card className={classes.card}>
       <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title={props.title}
-        />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {props.title}
+            {props.item.title}
           </Typography>
           <Typography className={classes.p} variant="body2" color="textSecondary" component="p">
-            {props.description}
+            {props.item.description}
           </Typography>
 
-          <CardChip title="Nexus" data={props.nexus}/>
-          <CardChip title="Domain" data={props.domain}/>
+          <CardChip title="Nexus" data={props.item.nexus}/>
+          <CardChip title="Domain" data={props.item.domain}/>
           
         </CardContent>
       </CardActionArea>
