@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function Standards () {
-    const {data} = useContext(Context)
+    const {data} = useContext(Context);
     const [spacing] = React.useState(2);
     const classes = useStyles();
 
@@ -29,7 +29,7 @@ function Standards () {
                 <Card item={dataItem}/>
             </Grid>
         )
-    })
+    });
 
     return (
         <main>

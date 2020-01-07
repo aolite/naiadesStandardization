@@ -1,6 +1,6 @@
 import React from "react";
 
-function Landscape(props){
+function Landscape(){
     return (
         <main>
             <h2>Landscape Page</h2>
