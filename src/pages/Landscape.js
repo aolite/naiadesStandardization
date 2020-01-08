@@ -13,7 +13,7 @@ function Landscape(){
                 <Map
                     data = {data}
                     center={[50.8503, 4.3517]}
-                    zoom={5}
+                    zoom={2}
                 />
             </MapProvider>
         </main>

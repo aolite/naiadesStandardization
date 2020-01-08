@@ -9,7 +9,7 @@
         "url": "https://www.iso.org/standard/53248.html",
         "geo": {
             "latitude": 46.204391,
-            "longitude": 6.143158
+            "longitude": 6.14
         }
     },
     {
@@ -21,8 +21,8 @@
         "nexus": ["Energy", "Food"], 
         "url": "https://www.iso.org/committee/4856734.html",
         "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
+            "latitude": 46.604391,
+            "longitude": 6.14
         }
     },
     {
@@ -34,8 +34,8 @@
         "nexus": ["Food"], 
         "url": "https://www.iso.org/committee/47148.html",
         "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
+            "latitude": 46.604391,
+            "longitude": 6.30
         }
     },
     {
@@ -46,8 +46,8 @@
         "nexus": ["Water"], 
         "url": "https://www.iso.org/committee/52834.html",
         "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
+            "latitude": 46.604391,
+            "longitude": 6.80
         }
     }, 
     {
@@ -59,7 +59,7 @@
         "nexus": ["Water", "Energy", "Food"], 
         "url": "https://www.iso.org/committee/54854.html",
         "geo": {
-            "latitude": 46.204391,
+            "latitude": 46.704391,
             "longitude": 6.143158
         }
     },
@@ -72,8 +72,8 @@
         "nexus": ["Water", "Energy", "Food"], 
         "url": "https://www.iso.org/committee/299764.html",
         "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
+            "latitude": 46.704391,
+            "longitude": 6.70
         }
     },
     {
@@ -85,8 +85,8 @@
         "nexus": ["Water"], 
         "url": "https://www.iso.org/committee/4493530.html",
         "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
+            "latitude": 46.704391,
+            "longitude": 6.60
         }
     },
     {
@@ -98,21 +98,8 @@
         "nexus": ["Water"], 
         "url": "https://www.iso.org/committee/51678.html",
         "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
-        }
-    },
-    {
-        "id": "ISO/TC 113",
-        "title":"Hydrometry",
-        "description":"Methods, procedures, instruments, and equipment relating to techniques for hydrometric determination of water level, velocity, discharge and sediment transport in open channels, precipitation and evapotranspiration, availability and movement of ground water.",
-        "domain": ["Physical systems, methods and measurement"],
-        "sdo":"International Standard Organization",
-        "nexus": ["Water"], 
-        "url": "https://www.iso.org/committee/51678.html",
-        "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
+            "latitude": 46.404391,
+            "longitude": 6.14
         }
     },
     {
@@ -124,21 +111,8 @@
         "nexus": ["Water"], 
         "url": "https://www.iso.org/committee/47576.html",
         "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
-        }
-    },
-    {
-        "id": "ISO/TC 30",
-        "title":"Measurement of fluid flow in closed conduits",
-        "description":"This set of standards include terminology, rules and methods for measuring fluid flows in closed conduits. These standards also include conditions and guidelines to construct instruments and equipment required.",
-        "domain": ["Physical systems, methods and measurement"],
-        "sdo":"International Standard Organization",
-        "nexus": ["Water"], 
-        "url": "https://www.iso.org/committee/47576.html",
-        "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
+            "latitude": 46.404391,
+            "longitude": 6.50
         }
     },
     {
@@ -150,23 +124,10 @@
         "nexus": ["Water", "Energy", "Food"], 
         "url": "https://standards.ieee.org/project/982_1.html",
         "geo": {
-            "latitude": 40.543869,
-            "longitude": -74.474121
+            "latitude": 40.54,
+            "longitude": -74.50
         }
     },
-    {
-        "id": "P982.1",
-        "title":"Standard for Measures of the Software Aspects of Dependability",
-        "description":"This standard covers the development of software resilient software and services. The methods and guidelines target critical systems for which reliability, maintainability, availability, security, and, in some operational contexts, safety, usability, and privacy are essential characteristics.",
-        "domain": ["High Level Architectures", "APIs and Services"],
-        "sdo":"Institute of Electrical and Electronics Engineers",
-        "nexus": ["Water", "Energy", "Food"], 
-        "url": "https://standards.ieee.org/project/982_1.html",
-        "geo": {
-            "latitude": 40.543869,
-            "longitude": -74.474121
-        }
-    }, 
     {
         "id": "IEEE 1377-2012",
         "title":"Standard for Measures of the Software Aspects of Dependability",
@@ -176,8 +137,8 @@
         "nexus": ["Water", "Energy"], 
         "url": " https://standards.ieee.org/standard/1377-2012.html",
         "geo": {
-            "latitude": 40.543869,
-            "longitude": -74.474121
+            "latitude": 40.54,
+            "longitude": -74.10
         }
     }, 
     {
@@ -189,8 +150,8 @@
         "nexus": ["Water"], 
         "url": "https://www.opengeospatial.org/standards/waterml",
         "geo": {
-            "latitude": 42.407211,
-            "longitude": -71.382439
+            "latitude": 42.40,
+            "longitude": -71.40
         }
     },
     {
@@ -202,8 +163,8 @@
         "nexus": ["Water"], 
         "url": "https://portal.opengeospatial.org/files/?artifact_id=57222",
         "geo": {
-            "latitude": 42.407211,
-            "longitude": -71.382439
+            "latitude": 42.40,
+            "longitude": -71.10
         }
     },
     {
@@ -215,8 +176,8 @@
         "nexus": ["Water", "Energy"], 
         "url": "http://docs.opengeospatial.org/is/15-018r2/15-018r2.html#1",
         "geo": {
-            "latitude": 42.407211,
-            "longitude": -71.382439
+            "latitude": 42.70,
+            "longitude": -71.40
         }
     },
     {
@@ -228,8 +189,8 @@
         "nexus": ["Water"], 
         "url": "http://docs.opengeospatial.org/is/14-111r6/14-111r6.html",
         "geo": {
-            "latitude": 42.407211,
-            "longitude": -71.382439
+            "latitude": 42.70,
+            "longitude": -71.10
         }
     },
     {
@@ -241,8 +202,8 @@
         "nexus": ["Water"], 
         "url": "http://docs.opengeospatial.org/is/16-032r2/16-032r2.html",
         "geo": {
-            "latitude": 42.407211,
-            "longitude": -71.382439
+            "latitude": 42.10,
+            "longitude": -71.40
         }
     },
     {
@@ -267,8 +228,8 @@
         "nexus": ["Water", "Food"], 
         "url": "https://www.etsi.org/committee/smartm2m",
         "geo": {
-            "latitude": 43.622559,
-            "longitude": 7.041140
+            "latitude": 43.60,
+            "longitude": 7.00
         }
     },
     {
@@ -280,8 +241,8 @@
         "nexus": ["Water", "Food"], 
         "url": "https://portal.etsi.org/STF/STFs/STF-HomePages/STF566",
         "geo": {
-            "latitude": 43.622559,
-            "longitude": 7.041140
+            "latitude": 43.60,
+            "longitude": 7.20
         }
     },
     {
@@ -293,8 +254,8 @@
         "nexus": ["Water", "Food"], 
         "url": "https://portal.etsi.org/STF/STFs/STF-HomePages/STF566",
         "geo": {
-            "latitude": 43.622559,
-            "longitude": 7.041140
+            "latitude": 43.30,
+            "longitude": 7.00
         }
     },
     {
@@ -306,8 +267,8 @@
         "nexus": ["Water", "Food"], 
         "url": "https://portal.etsi.org/STF/STFs/STF-HomePages/STF566",
         "geo": {
-            "latitude": 46.204391,
-            "longitude": 6.143158
+            "latitude": 46.20,
+            "longitude": 6.15
         }
     },
     {
@@ -319,8 +280,8 @@
         "nexus": ["Water", "Food", "Energy"], 
         "url": "ftp://ftp.cen.eu/cen/Sectors/List/Measurement/Smartmeters/CENCLC ETSI_TR50572.pdf",
         "geo": {
-            "latitude": 50.850346,
-            "longitude": 4.351721
+            "latitude": 50.90,
+            "longitude": 4.40
         }
     },
     {
@@ -332,8 +293,8 @@
         "nexus": ["Water", "Food", "Energy"], 
         "url": "https://inspire.ec.europa.eu/",
         "geo": {
-            "latitude": 50.850346,
-            "longitude": 4.351721
+            "latitude": 50.90,
+            "longitude": 4.70
         }
     },
     {
@@ -345,8 +306,8 @@
         "nexus": ["Water", "Food", "Energy"], 
         "url": "https://ec.europa.eu/transparency/regdoc/rep/1/2016/EN/1-2016-289- EN-F1-1.PDF",
         "geo": {
-            "latitude": 50.850346,
-            "longitude": 4.351721
+            "latitude": 51.20,
+            "longitude": 4.40
         }
     },
     {
@@ -358,8 +319,8 @@
         "nexus": ["Water"], 
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52015PC0627&from=EN",
         "geo": {
-            "latitude": 50.850346,
-            "longitude": 4.351721
+            "latitude": 51.20,
+            "longitude": 4.70
         }
     },
     {
@@ -371,8 +332,8 @@
         "nexus": ["Water"], 
         "url": "https://ec.europa.eu/environment/water/water-drink/legislation_en.html",
         "geo": {
-            "latitude": 50.850346,
-            "longitude": 4.351721
+            "latitude": 50.60,
+            "longitude": 4.40
         }
     },
     {
@@ -384,8 +345,8 @@
         "nexus": ["Water"], 
         "url": " https://ec.europa.eu/environment/pubs/pdf/factsheets/wfd/en.pdf",
         "geo": {
-            "latitude": 50.850346,
-            "longitude": 4.351721
+            "latitude": 50.60,
+            "longitude": 4.70
         }
     },
     {
@@ -397,8 +358,8 @@
         "nexus": ["Water"], 
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32007L0060&from=EN",
         "geo": {
-            "latitude": 50.850346,
-            "longitude": 4.351721
+            "latitude": 50.80,
+            "longitude": 4.40
         }
     },
     {
@@ -410,8 +371,8 @@
         "nexus": ["Water"], 
         "url": "https://eur-lex.europa.eu/legal- content/EN/TXT/HTML/?uri=LEGISSUM:l28180&from=EN",
         "geo": {
-            "latitude": 50.850346,
-            "longitude": 4.351721
+            "latitude": 50.80,
+            "longitude": 4.70
         }
     }
 
