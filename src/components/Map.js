@@ -1,11 +1,15 @@
-import React, {useEffect, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import L from "leaflet";
 import PropTypes from 'prop-types';
+import {MapContext} from "../context/MapProvider";
 
 function Map(props){
-    const [map, setMap] = useState({});
+    const {addMarkers,updateMarkers} = useContext(MapContext);
+
     useEffect( ()=> {
         // create map
+        const markersData = addMarkers(props.data);
+
         const updatedMap= L.map('mapId', {
             center: props.center,
             zoom: props.zoom,
@@ -15,8 +19,16 @@ function Map(props){
                 }),
             ]
         });
-        setMap(updatedMap);
-    },[props.center, props.zoom]);
+        const layer = L.layerGroup().addTo(updatedMap);
+        updateMarkers(layer,markersData);
+
+
+        return () => {
+            updatedMap.off();
+            updatedMap.remove();
+        }
+    },[props.data]);
+
 
     return (
         <div id="mapId" />
