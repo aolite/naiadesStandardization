@@ -7,6 +7,7 @@
         "domain": ["Monitoring & Measurement System", "Architecture Level"],
         "nexus": ["Water", "Energy", "Food"], 
         "url": "https://www.iso.org/standard/53248.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.204391,
             "longitude": 6.14
@@ -20,6 +21,7 @@
         "sdo":"International Standard Organization",
         "nexus": ["Energy", "Food"], 
         "url": "https://www.iso.org/committee/4856734.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.604391,
             "longitude": 6.14
@@ -33,6 +35,7 @@
         "sdo":"International Standard Organization",
         "nexus": ["Food"], 
         "url": "https://www.iso.org/committee/47148.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.604391,
             "longitude": 6.30
@@ -43,8 +46,10 @@
         "title":"Water Quality",
         "description":"This standard comprise the understanding of water quality terminology combined with a broad strategy for measuring, sampling and characterizing water quality (including physical, chemical, biochemical, biological and microbiological) procedures and measurements (including radioactivity measurements).",
         "domain": ["Physical systems, methods and measurement"],
-        "nexus": ["Water"], 
+        "nexus": ["Water"],
+        "sdo":"International Standard Organization",
         "url": "https://www.iso.org/committee/52834.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.604391,
             "longitude": 6.80
@@ -58,6 +63,7 @@
         "sdo":"International Standard Organization",
         "nexus": ["Water", "Energy", "Food"], 
         "url": "https://www.iso.org/committee/54854.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.704391,
             "longitude": 6.143158
@@ -71,6 +77,7 @@
         "sdo":"International Standard Organization",
         "nexus": ["Water", "Energy", "Food"], 
         "url": "https://www.iso.org/committee/299764.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.704391,
             "longitude": 6.70
@@ -84,6 +91,7 @@
         "sdo":"International Standard Organization",
         "nexus": ["Water"], 
         "url": "https://www.iso.org/committee/4493530.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.704391,
             "longitude": 6.60
@@ -97,6 +105,7 @@
         "sdo":"International Standard Organization",
         "nexus": ["Water"], 
         "url": "https://www.iso.org/committee/51678.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.404391,
             "longitude": 6.14
@@ -110,6 +119,7 @@
         "sdo":"International Standard Organization",
         "nexus": ["Water"], 
         "url": "https://www.iso.org/committee/47576.html",
+        "color": "blue",
         "geo": {
             "latitude": 46.404391,
             "longitude": 6.50
@@ -123,6 +133,7 @@
         "sdo":"Institute of Electrical and Electronics Engineers",
         "nexus": ["Water", "Energy", "Food"], 
         "url": "https://standards.ieee.org/project/982_1.html",
+        "color": "green",
         "geo": {
             "latitude": 40.54,
             "longitude": -74.50
@@ -136,6 +147,7 @@
         "sdo":"Institute of Electrical and Electronics Engineers",
         "nexus": ["Water", "Energy"], 
         "url": " https://standards.ieee.org/standard/1377-2012.html",
+        "color": "gold",
         "geo": {
             "latitude": 40.54,
             "longitude": -74.10
@@ -149,6 +161,7 @@
         "sdo":"Institute of Electrical and Electronics Engineers",
         "nexus": ["Water"], 
         "url": "https://www.opengeospatial.org/standards/waterml",
+        "color": "red",
         "geo": {
             "latitude": 42.40,
             "longitude": -71.40
@@ -162,6 +175,7 @@
         "sdo":"Open Geospatial Consortium",
         "nexus": ["Water"], 
         "url": "https://portal.opengeospatial.org/files/?artifact_id=57222",
+        "color": "red",
         "geo": {
             "latitude": 42.40,
             "longitude": -71.10
@@ -175,6 +189,7 @@
         "sdo":"Open Geospatial Consortium",
         "nexus": ["Water", "Energy"], 
         "url": "http://docs.opengeospatial.org/is/15-018r2/15-018r2.html#1",
+        "color": "red",
         "geo": {
             "latitude": 42.70,
             "longitude": -71.40
@@ -188,6 +203,7 @@
         "sdo":"Open Geospatial Consortium",
         "nexus": ["Water"], 
         "url": "http://docs.opengeospatial.org/is/14-111r6/14-111r6.html",
+        "color": "red",
         "geo": {
             "latitude": 42.70,
             "longitude": -71.10
@@ -201,6 +217,7 @@
         "sdo":"Open Geospatial Consortium",
         "nexus": ["Water"], 
         "url": "http://docs.opengeospatial.org/is/16-032r2/16-032r2.html",
+        "color": "red",
         "geo": {
             "latitude": 42.10,
             "longitude": -71.40
@@ -214,6 +231,7 @@
         "sdo":"ICT4Water Cluster",
         "nexus": ["Water"], 
         "url": "https://ec.europa.eu/futurium/en/system/files/ged/ict4wateractionplan2018.pdf",
+        "color": "yellow",
         "geo": {
             "latitude": 50.850346,
             "longitude": 4.351721
@@ -227,6 +245,7 @@
         "sdo":"ETSI",
         "nexus": ["Water", "Food"], 
         "url": "https://www.etsi.org/committee/smartm2m",
+        "color": "black",
         "geo": {
             "latitude": 43.60,
             "longitude": 7.00
@@ -240,6 +259,7 @@
         "sdo":"ETSI",
         "nexus": ["Water", "Food"], 
         "url": "https://portal.etsi.org/STF/STFs/STF-HomePages/STF566",
+        "color": "black",
         "geo": {
             "latitude": 43.60,
             "longitude": 7.20
@@ -253,6 +273,7 @@
         "sdo":"ETSI",
         "nexus": ["Water", "Food"], 
         "url": "https://portal.etsi.org/STF/STFs/STF-HomePages/STF566",
+        "color": "black",
         "geo": {
             "latitude": 43.30,
             "longitude": 7.00
@@ -266,6 +287,7 @@
         "sdo":"ITU-T",
         "nexus": ["Water", "Food"], 
         "url": "https://portal.etsi.org/STF/STFs/STF-HomePages/STF566",
+        "color": "grey",
         "geo": {
             "latitude": 46.20,
             "longitude": 6.15
@@ -279,6 +301,7 @@
         "sdo":"CEN-CELENEC",
         "nexus": ["Water", "Food", "Energy"], 
         "url": "ftp://ftp.cen.eu/cen/Sectors/List/Measurement/Smartmeters/CENCLC ETSI_TR50572.pdf",
+        "color": "orange",
         "geo": {
             "latitude": 50.90,
             "longitude": 4.40
@@ -292,6 +315,7 @@
         "sdo":"European Commission",
         "nexus": ["Water", "Food", "Energy"], 
         "url": "https://inspire.ec.europa.eu/",
+        "color": "violet",
         "geo": {
             "latitude": 50.90,
             "longitude": 4.70
@@ -305,6 +329,7 @@
         "sdo":"European Commission",
         "nexus": ["Water", "Food", "Energy"], 
         "url": "https://ec.europa.eu/transparency/regdoc/rep/1/2016/EN/1-2016-289- EN-F1-1.PDF",
+        "color": "violet",
         "geo": {
             "latitude": 51.20,
             "longitude": 4.40
@@ -318,6 +343,7 @@
         "sdo":"European Commission",
         "nexus": ["Water"], 
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52015PC0627&from=EN",
+        "color": "violet",
         "geo": {
             "latitude": 51.20,
             "longitude": 4.70
@@ -331,6 +357,7 @@
         "sdo":"European Commission",
         "nexus": ["Water"], 
         "url": "https://ec.europa.eu/environment/water/water-drink/legislation_en.html",
+        "color": "violet",
         "geo": {
             "latitude": 50.60,
             "longitude": 4.40
@@ -344,6 +371,7 @@
         "sdo":"European Commission",
         "nexus": ["Water"], 
         "url": " https://ec.europa.eu/environment/pubs/pdf/factsheets/wfd/en.pdf",
+        "color": "violet",
         "geo": {
             "latitude": 50.60,
             "longitude": 4.70
@@ -357,6 +385,7 @@
         "sdo":"European Commission",
         "nexus": ["Water"], 
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32007L0060&from=EN",
+        "color": "violet",
         "geo": {
             "latitude": 50.80,
             "longitude": 4.40
@@ -370,6 +399,7 @@
         "sdo":"European Commission",
         "nexus": ["Water"], 
         "url": "https://eur-lex.europa.eu/legal- content/EN/TXT/HTML/?uri=LEGISSUM:l28180&from=EN",
+        "color": "violet",
         "geo": {
             "latitude": 50.80,
             "longitude": 4.70
