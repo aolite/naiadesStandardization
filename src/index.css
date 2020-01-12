@@ -17,3 +17,12 @@ code {
 #mapId {
   height: 400px;
 }
+
+.capitalLetter{
+  font-size: 150%;
+}
+
+.paragraph{
+  text-align: center;
+  font-size: 120%;
+}
