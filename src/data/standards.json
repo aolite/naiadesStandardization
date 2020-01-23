@@ -1,5 +1,6 @@
 [
     {
+        "_id": 1,
         "id": "ISO/IEC 30128",
         "title":"Generic Sensor networks Application Interfaces",
         "description":"International Standard that depicts generic sensor network applications’ operational requirements, description of sensor network capabilities, and mandatory and optional interfaces between the applications.",
@@ -14,6 +15,7 @@
         }
     },
     {
+        "_id": 2,
         "id": "ISO/TC 282",
         "title":"Water Reuse",
         "description":"This standard covers technical, economic, environmental and societal aspects of water reuse. Considering water reuse topic, this standard covers all value-chain considering operations involved in collection, conveyance, processing, storage, distribution, consumption, drainage of wastewater, treated effluents and cascaded recycled cycles. Moreover, the standard also covers as important topic the impact of water quality in water use and recycling.",
@@ -28,6 +30,7 @@
         }
     },
     {
+        "_id": 3,
         "id": "ISO/TC 23/SC 18",
         "title":"Irrigation and drainage equipment and systems",
         "description":"This standard is focusing on physical systems for maximizing the irrigation and agriculture production. Based on that, the specific standards developed covers the design and implementation of volumetric valves (ISO 7714:2018), Filter for micro irrigation (ISO9912-4:2018), testing of agricultural irrigation equipment (ISO/TR 15155:2018), etc.",
@@ -42,6 +45,7 @@
         }
     },
     {
+        "_id": 4,
         "id": "ISO/TC 147",
         "title":"Water Quality",
         "description":"This standard comprise the understanding of water quality terminology combined with a broad strategy for measuring, sampling and characterizing water quality (including physical, chemical, biochemical, biological and microbiological) procedures and measurements (including radioactivity measurements).",
@@ -56,6 +60,7 @@
         }
     }, 
     {
+        "_id": 5,
         "id": "ISO/TC 207/SC5",
         "title":"Life Cycle Assessment",
         "description":"Standardization in the field of life cycle assessment and related environmental management tools for products and organizations. It includes life cycle-based resource efficiency and eco-efficiency assessment and encompasses consideration of a life cycle perspective in the assessment of impacts from the extraction of raw materials to the final disposal of waste. These standards directly contribute to circular economy, resource efficient and process/services symbioses about natural resources.",
@@ -70,6 +75,7 @@
         }
     },
     {
+        "_id": 6,
         "id": "ISO/TC 224",
         "title":"Service activities relating to drinking water supply, wastewater and stormwater systems",
         "description":"Standardization of the management concepts for service activities relating to drinking water supply, wastewater and stormwater systems. These standards are related with the relation with the customer and the subsequent services for operation and maintenance activities, service provision during crisis, water loss reduction and management, stormwater management, governance for water utilities, continuous service monitoring for water quality and asset management services related to water supply and wastewater systems.",
@@ -84,6 +90,7 @@
         }
     },
     {
+        "_id": 7,
         "id": "ISO/TC 275",
         "title":"Sludge recovery, recycling, treatment and disposal",
         "description":"Methods for characterizing, categorizing, preparing, treating, recycling and managing sludge and products from urban wastewater collection systems, night soil, storm water handling, water supply treatment plants, wastewater treatment plants for urban and similar industrial waters. It includes all sludge that may have similar environmental and/or health impacts.",
@@ -98,6 +105,7 @@
         }
     },
     {
+        "_id": 8,
         "id": "ISO/TC 113",
         "title":"Hydrometry",
         "description":"Methods, procedures, instruments, and equipment relating to techniques for hydrometric determination of water level, velocity, discharge and sediment transport in open channels, precipitation and evapotranspiration, availability and movement of ground water.",
@@ -112,6 +120,7 @@
         }
     },
     {
+        "_id": 9,
         "id": "ISO/TC 30",
         "title":"Measurement of fluid flow in closed conduits",
         "description":"This set of standards include terminology, rules and methods for measuring fluid flows in closed conduits. These standards also include conditions and guidelines to construct instruments and equipment required.",
@@ -126,6 +135,7 @@
         }
     },
     {
+        "_id": 10,
         "id": "P982.1",
         "title":"Standard for Measures of the Software Aspects of Dependability",
         "description":"This standard covers the development of software resilient software and services. The methods and guidelines target critical systems for which reliability, maintainability, availability, security, and, in some operational contexts, safety, usability, and privacy are essential characteristics.",
@@ -140,6 +150,7 @@
         }
     },
     {
+        "_id": 11,
         "id": "IEEE 1377-2012",
         "title":"Standard for Measures of the Software Aspects of Dependability",
         "description":"Set of standards focused on communication between End Devices considering requirements of Advanced Metering Infrastructure (AMI) and Smart Grids. This covers data exchange with Extensible Markup Languages (EML) and Exchange Data Languages (EDL).",
@@ -154,6 +165,7 @@
         }
     }, 
     {
+        "_id": 12,
         "id": "OGC-WaterML2",
         "title":"WaterML",
         "description":"Standard information model for the representation of water observations data, with the intent of allowing the exchange of such data sets across information systems. Through the use of existing OGC standards",
@@ -168,6 +180,7 @@
         }
     },
     {
+        "_id": 13,
         "id": "OGC-WaterML2-Timesries",
         "title":"WaterML2-Timeseries (Part 1)",
         "description":"This standard is mainly focused on harmonising time series structures with  other standards such as GML, CSML, netCDF and SWE common profiles. The time series and corresponding representation of the measures are following the ISO19156 (Observation and Measurement).",
@@ -182,6 +195,7 @@
         }
     },
     {
+        "_id": 14,
         "id": "OGC-WaterML2-Ratings Gauging and Sections",
         "title":"WaterML2-Ratings, Gaugings and Sections (Part 2)",
         "description":"This data exchange model is focused on hydrometry. In this regard, this model is focused on hydrology measuring river flow, hydrological conversions and their related observations.",
@@ -196,6 +210,7 @@
         }
     },
     {
+        "_id": 15,
         "id": "OGC-WaterML2-HY_FEATURES",
         "title":"WaterML2-HY_FEATURES (Part 3)",
         "description":"Reference model defining real-world water-objects and the way they relate to each other according to hydro-science domain defined by semantics and network topology.",
@@ -210,6 +225,7 @@
         }
     },
     {
+        "_id": 16,
         "id": "OGC-WaterML2- GroundWaterML2",
         "title":"GroundwaterGML2 (Part4)",
         "description":"This data exchange model that represent logical and encoding standard for representing groundwater data. This standard has been elaborated for exchange information about the management of groundwater resources, to make interoperable groundwater modelling systems and lately,enhance the interoperability diverse water informational systems.",
@@ -224,6 +240,7 @@
         }
     },
     {
+        "_id": 17,
         "id": "Digital Single Market for Water Services Action Plan",
         "title":"Digital Single Market for Water Services Action Plan",
         "description":"This reference document depicts the EU strategy towards “smart water society” by promoting ICT technology in water domain. In that sense, this document depicts main strategy in different pillars: (i) Interoperability & Standardization (I&S); (ii) Data Sharing (DS), (iii) Smart Water (SW); (iv) Cyber-Security (CS); (v) Water & Digital (AW); (vi) Policy (POL); and (vii) Business Model (BM).",
@@ -238,6 +255,7 @@
         }
     },
     {
+        "_id": 18,
         "id": "SmartM2M",
         "title":"SmartM2M",
         "description":"This corresponds to the specifications and design of a high level architecture to enable machine to machine communication.",
@@ -252,6 +270,7 @@
         }
     },
     {
+        "_id": 19,
         "id": "SAREF4WATER",
         "title":"SAREF4WATER",
         "description":"SAREF corresponds to a semantic model (ontology) for representing contextual information of water systems and their interrelation with the physical domain. SAREF will enable the cross-domain interoperability while offer a data model with context based metadata.",
@@ -266,6 +285,7 @@
         }
     },
     {
+        "_id": 20,
         "id": "NGSI-LD",
         "title":"NGSI-LD",
         "description":"This reference model corresponds to an open API for the integration of smart city data at cross-domain whilst compliant with GDPR. NGSI-LD open API manages the information in form of graph-databases and serialize it in JSON-LD. Moreover, the open API specification is also compliant with FIWARE high level architecture.",
@@ -280,6 +300,7 @@
         }
     },
     {
+        "_id": 21,
         "id": "F.744",
         "title":"Service Description and Requirements",
         "description":"This reference model corresponds to an open API for the integration of smart city data at cross-domain whilst compliant with GDPR. NGSI-LD open API manages the information in form of graph-databases and serialize it in JSON-LD. Moreover, the open API specification is also compliant with FIWARE high level architecture.",
@@ -294,6 +315,7 @@
         }
     },
     {
+        "_id": 22,
         "id": "CEN/CLC/ETSI/TR 50572",
         "title":"Functional reference architecture for communications in smart metering systems",
         "description":"A European standard comprising a software and hardware open architecture for utility meters that supports secure bidirectional communication upstream and downstream through standardized interfaces and data exchange formats and allows advanced information and management and control systems for consumers and service suppliers.",
@@ -308,6 +330,7 @@
         }
     },
     {
+        "_id": 23,
         "id": "INSPIRE",
         "title":"INSPIRE Directive",
         "description":"This Directive corresponds to a data model to share geospatial information and statistics in Europe. Moreover, this directive also offers a architecture for data sets sharing between EU countries.",
@@ -322,6 +345,7 @@
         }
     },
     {
+        "_id": 24,
         "id": "COM (2016) 289",
         "title":"Regulation on geo-blocking and other forms of discrimination based on customers' nationality, place of residence or place of establishment within the internal market and amending.",
         "description":"This regulation is mainly focused on give customers better access to goods and services in the Single Market by preventing direct and indirect discrimination by trades artificially segmenting the market based on customers' residence.",
@@ -336,6 +360,7 @@
         }
     },
     {
+        "_id": 25,
         "id": "COM (2015) 627",
         "title":"The Water Framework Directive and the Floods Directive: Actions towards the 'good status' of EU water and to reduce flood risks",
         "description":"Implementation report to effective water management in preparation for extreme events which, due to climate change, are becoming more frequent and cause tremendous damages.",
@@ -350,6 +375,7 @@
         }
     },
     {
+        "_id": 26,
         "id": "Directive 98/83/EC",
         "title":"Water Drinking Directive",
         "description":"Main aim of this regulation is to protect human health from adverse effects of any contamination of water intended for human consumption by ensuring that it is wholesome and clean.",
@@ -364,6 +390,7 @@
         }
     },
     {
+        "_id": 27,
         "id": "EU Water Framework Directive",
         "title":"EU Water Framework Directive.",
         "description":"Regulation to protect water based on natural geographical formations such as rivers and lakes. This regulation ensures relevant stakeholders to to use clean water and then strengthen the economy around it.",
@@ -378,6 +405,7 @@
         }
     },
     {
+        "_id": 28,
         "id": "Directive 2006/118/EC",
         "title":"Flood Risk Directive",
         "description":"The main motivation of this directive is to assess and manage flood risk that are being more and more continuous due to the climate change impacts and events.",
@@ -392,6 +420,7 @@
         }
     },
     {
+        "_id": 29,
         "id": "Directive 2008/105/EC",
         "title":"Environmental quality standards applicable to surface water",
         "description":"This standard is focused on concerning the presence in surface water of certain substances or groups of substances identified as priority pollutants because of the significant risk they pose to or via the aquatic environment.",

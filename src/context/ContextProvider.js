@@ -18,13 +18,17 @@ function ContextProvider (props){
         });
     };
 
-    useEffect(()=>{
+
+    const loadData = () => {
         setIsLoading(true);
         setData (Data);
         const updateData = createWordCloud(Data);
-        console.log(updateData);
         setWordCloudData(updateData);
         setIsLoading(false)
+    };
+
+    useEffect(()=>{
+        loadData();
     }, []);
 
     return (

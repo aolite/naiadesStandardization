@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {CardChip} from "./CardChip";
+import {useHistory} from "react-router-dom";
 
 const useStyles = makeStyles({
   card: {
@@ -34,26 +35,28 @@ const useStyles = makeStyles({
 
 export default function MediaCard(props) {
   const classes = useStyles();
+  let history = useHistory();
 
   const onHandleClickUrl = () =>{
-    console.log('Click...'+ props.item.url);
+    console.log('Click...'+ window.location.assign(props.item.url));
   };
 
   return (
     <Card className={classes.card}>
-      <CardActionArea>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {props.item.title}
-          </Typography>
-          <Typography className={classes.p} variant="body2" color="textSecondary" component="p">
-            {props.item.description}
-          </Typography>
+      <CardActionArea onClick={() => history.push(`/standard/${props.item._id}`)}>
+          <CardContent>
 
-          <CardChip title="Nexus" data={props.item.nexus}/>
-          <CardChip title="Domain" data={props.item.domain}/>
-          
-        </CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              {props.item.title}
+            </Typography>
+            <Typography className={classes.p} variant="body2" color="textSecondary" component="p">
+              {props.item.description}
+            </Typography>
+
+            <CardChip title="Nexus" data={props.item.nexus}/>
+            <CardChip title="Domain" data={props.item.domain}/>
+
+          </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary" onClick={onHandleClickUrl}>

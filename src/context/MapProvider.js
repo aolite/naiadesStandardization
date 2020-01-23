@@ -25,6 +25,7 @@ function MapProvider (props){
 
     const addMarkers = (data) => {
         if (Object.entries(data).length > 0 && data.constructor !== Object){
+            console.log (data);
             return data.map(item => {
                 return {
                     title: `${item.sdo}: ${item.title}`,
@@ -36,6 +37,19 @@ function MapProvider (props){
                 }
             });
         }
+        else {
+            if (Object.entries(data).length > 0 && data.constructor === Object){
+                return [{
+                    title: `${data.sdo}: ${data.title}`,
+                    color: data.color,
+                    latLng:{
+                        lat: data.geo.latitude,
+                        lng: data.geo.longitude
+                    }
+                }];
+            }
+        }
+
         return []
     };
 

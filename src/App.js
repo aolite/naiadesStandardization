@@ -5,6 +5,7 @@ import {Route, Switch} from "react-router-dom";
 import Landscape from "./pages/Landscape";
 import Standards from "./pages/Standards";
 import About from "./pages/About";
+import StandardDetails from "./pages/StandardDetail";
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/about">
               <About/>
+          </Route>
+          <Route path={"/standard/:standardId"}>
+              <StandardDetails/>
           </Route>
       </Switch>
     </>
