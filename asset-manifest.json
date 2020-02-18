@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/naiadesStandardization/static/css/main.d4a1ce40.chunk.css",
-    "main.js": "/naiadesStandardization/static/js/main.36518024.chunk.js",
-    "main.js.map": "/naiadesStandardization/static/js/main.36518024.chunk.js.map",
+    "main.js": "/naiadesStandardization/static/js/main.9da1b325.chunk.js",
+    "main.js.map": "/naiadesStandardization/static/js/main.9da1b325.chunk.js.map",
     "runtime-main.js": "/naiadesStandardization/static/js/runtime-main.52ff73d7.js",
     "runtime-main.js.map": "/naiadesStandardization/static/js/runtime-main.52ff73d7.js.map",
-    "static/js/2.993d4722.chunk.js": "/naiadesStandardization/static/js/2.993d4722.chunk.js",
-    "static/js/2.993d4722.chunk.js.map": "/naiadesStandardization/static/js/2.993d4722.chunk.js.map",
+    "static/js/2.4294097c.chunk.js": "/naiadesStandardization/static/js/2.4294097c.chunk.js",
+    "static/js/2.4294097c.chunk.js.map": "/naiadesStandardization/static/js/2.4294097c.chunk.js.map",
     "index.html": "/naiadesStandardization/index.html",
-    "precache-manifest.2f27c8fcc98b523e3446b7f4a0faa07f.js": "/naiadesStandardization/precache-manifest.2f27c8fcc98b523e3446b7f4a0faa07f.js",
+    "precache-manifest.be6951872a45b83e9e332460b0626986.js": "/naiadesStandardization/precache-manifest.be6951872a45b83e9e332460b0626986.js",
     "service-worker.js": "/naiadesStandardization/service-worker.js",
     "static/css/main.d4a1ce40.chunk.css.map": "/naiadesStandardization/static/css/main.d4a1ce40.chunk.css.map",
-    "static/js/2.993d4722.chunk.js.LICENSE": "/naiadesStandardization/static/js/2.993d4722.chunk.js.LICENSE"
+    "static/js/2.4294097c.chunk.js.LICENSE": "/naiadesStandardization/static/js/2.4294097c.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.52ff73d7.js",
-    "static/js/2.993d4722.chunk.js",
+    "static/js/2.4294097c.chunk.js",
     "static/css/main.d4a1ce40.chunk.css",
-    "static/js/main.36518024.chunk.js"
+    "static/js/main.9da1b325.chunk.js"
   ]
 }
