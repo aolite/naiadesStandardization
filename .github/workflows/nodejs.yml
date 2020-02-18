@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-          token: ${{secrets.PAT}}
+          token: ${{ secrets.PAT }}
           repository: aolite/naiadesStandardization
       - name: Install Packages
         run: npm install
@@ -25,4 +25,4 @@ jobs:
           git config user.email 'aitorcorchero@gmail.com'
           npm run deploy
       - name: Updating Domain
-        run: echo "Update domain"
+        run: echo "Update domain"${{ secrets.PAT }}
