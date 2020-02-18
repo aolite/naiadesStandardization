@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/naiades-standardization/static/css/main.d4a1ce40.chunk.css",
-    "main.js": "/naiades-standardization/static/js/main.d940e338.chunk.js",
-    "main.js.map": "/naiades-standardization/static/js/main.d940e338.chunk.js.map",
-    "runtime-main.js": "/naiades-standardization/static/js/runtime-main.86db0413.js",
-    "runtime-main.js.map": "/naiades-standardization/static/js/runtime-main.86db0413.js.map",
-    "static/js/2.86d32836.chunk.js": "/naiades-standardization/static/js/2.86d32836.chunk.js",
-    "static/js/2.86d32836.chunk.js.map": "/naiades-standardization/static/js/2.86d32836.chunk.js.map",
-    "index.html": "/naiades-standardization/index.html",
-    "precache-manifest.3b72f21ca19076bf28b419eabedde8e5.js": "/naiades-standardization/precache-manifest.3b72f21ca19076bf28b419eabedde8e5.js",
-    "service-worker.js": "/naiades-standardization/service-worker.js",
-    "static/css/main.d4a1ce40.chunk.css.map": "/naiades-standardization/static/css/main.d4a1ce40.chunk.css.map",
-    "static/js/2.86d32836.chunk.js.LICENSE": "/naiades-standardization/static/js/2.86d32836.chunk.js.LICENSE"
+    "main.css": "/naiadesStandardization/static/css/main.d4a1ce40.chunk.css",
+    "main.js": "/naiadesStandardization/static/js/main.5aee7520.chunk.js",
+    "main.js.map": "/naiadesStandardization/static/js/main.5aee7520.chunk.js.map",
+    "runtime-main.js": "/naiadesStandardization/static/js/runtime-main.86c5acc6.js",
+    "runtime-main.js.map": "/naiadesStandardization/static/js/runtime-main.86c5acc6.js.map",
+    "static/js/2.86d32836.chunk.js": "/naiadesStandardization/static/js/2.86d32836.chunk.js",
+    "static/js/2.86d32836.chunk.js.map": "/naiadesStandardization/static/js/2.86d32836.chunk.js.map",
+    "index.html": "/naiadesStandardization/index.html",
+    "precache-manifest.4c794f16f9df1406d699b476a5156cf7.js": "/naiadesStandardization/precache-manifest.4c794f16f9df1406d699b476a5156cf7.js",
+    "service-worker.js": "/naiadesStandardization/service-worker.js",
+    "static/css/main.d4a1ce40.chunk.css.map": "/naiadesStandardization/static/css/main.d4a1ce40.chunk.css.map",
+    "static/js/2.86d32836.chunk.js.LICENSE": "/naiadesStandardization/static/js/2.86d32836.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.86db0413.js",
+    "static/js/runtime-main.86c5acc6.js",
     "static/js/2.86d32836.chunk.js",
     "static/css/main.d4a1ce40.chunk.css",
-    "static/js/main.d940e338.chunk.js"
+    "static/js/main.5aee7520.chunk.js"
   ]
 }
