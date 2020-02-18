@@ -9,7 +9,7 @@ import Map from "./Map";
 const paperStyle = {
     width: '75%',
     display: 'block',
-    margin: "0 auto",
+    margin: "2% auto",
     alignItems: 'center',
     padding: '2% 2% 2% 2%',
 };
@@ -20,6 +20,11 @@ const descriptionStyle = {
 
 const divStyle = {
   paddingTop: "2%"
+};
+
+const aStyle = {
+    color:'inherit',
+    textDecoration: 'none'
 };
 
 function StandardizationDetail (props){
@@ -41,7 +46,7 @@ function StandardizationDetail (props){
         <>
             <Paper style={paperStyle} elevation={3}>
                 <div>
-                    <h1><a href={props.standard.url} target={'_blank'}>{props.standard.title}</a></h1>
+                    <h1><a style={aStyle} href={props.standard.url} target={'_blank'}>{props.standard.title}</a></h1>
                     <Divider />
                     <p style={descriptionStyle}>{props.standard.description}</p>
                     <Divider />
