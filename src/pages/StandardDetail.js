@@ -1,7 +1,5 @@
-import React, {useContext, useEffect, useState} from "react";
-
+import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
-import Paper from "@material-ui/core/Paper";
 import Data from "../data/standards";
 import StandardizationDetail from "../components/StandardizationDetail";
 
