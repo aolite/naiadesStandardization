@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-          token: ${{ secrets.PAT }}
+          deploy_key: ${{ secrets.PAT }}
           repository: aolite/naiadesStandardization
       - name: Install Packages
         run: npm install
