@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --global user.email "aitorcorchero@gmail.com"
           git config --global user.name "aolite"
-          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/naiadesStandardization
+          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/aolite/naiadesStandardization
           npm run deploy
       - name: Updating Domain
         run: echo "Update domain"
