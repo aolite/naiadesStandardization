@@ -20,8 +20,8 @@ jobs:
         run: npm install
       - name: Deploy to GH Pages
         run: |
-          git config --global user.email "aitorcorchero@gmail.com"
-          git config --global user.name "aolite"
+          git config user.email "aitorcorchero@gmail.com"
+          git config user.name "aolite"
           npm run deploy
       - name: Updating Domain
         run: echo "Update domain"
