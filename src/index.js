@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {ContextProvider} from "./context/ContextProvider";
+
+// We changed to HashRouter in order to deploy in gh-pages
 import {HashRouter as Router} from 'react-router-dom'
 
 ReactDOM.render(
