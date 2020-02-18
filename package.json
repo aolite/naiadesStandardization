@@ -1,6 +1,7 @@
 {
   "name": "naiades-standardization",
   "version": "0.1.0",
+  "homepage": "https://aolite.github.io/naiades-standardization/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.7.2",
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
