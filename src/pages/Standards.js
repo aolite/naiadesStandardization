@@ -32,15 +32,19 @@ function Standards () {
     });
 
     return (
-        <main>
-            <Grid container className={classes.root} spacing={2}>
-                <Grid item xs={12}>
-                    <Grid container justify="center" spacing={spacing}>
-                        {standardElement}
+        <>
+            <h1>Water Standards</h1>
+            <main>
+                <Grid container className={classes.root} spacing={2}>
+                    <Grid item xs={12}>
+                        <Grid container justify="center" spacing={spacing}>
+                            {standardElement}
+                        </Grid>
                     </Grid>
                 </Grid>
-            </Grid>
-        </main>
+            </main>
+        </>
+
     )
 }
 
