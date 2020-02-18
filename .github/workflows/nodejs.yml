@@ -10,18 +10,20 @@ jobs:
       matrix:
         node-version: [10.x]
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+          token: d117d8c82d91e517fd3b2c33108f4f80077ad9fd
       - name: Install Packages
         run: npm install
       - name: Deploy to GH Pages
         run: |
           git config --global user.email "aitorcorchero@gmail.com"
           git config --global user.name "aolite"
-          git remote set-url origin https://aolite:d117d8c82d91e517fd3b2c33108f4f80077ad9fd@github.com/aolite/naiadesStandardization.git
+          git commit -am "Automated report"
+          git push
           npm run deploy
       - name: Updating Domain
         run: echo "Update domain"
