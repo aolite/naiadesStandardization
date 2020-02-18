@@ -49,28 +49,27 @@ function Landscape(){
                     />
                 </MapProvider>
 
-                <h2>Key Figures for Water Standardization</h2>
+                <h2 className={classes.word}>Key Figures for Water Standardization</h2>
                 <div className={classes.linear}>
                     <PieVizChart
                         data={nexusData}
-                        x={200}
-                        y={200}
-                        widthSize={500}
-                        heighSize={500}
+                        title={'Nexus'}
+                        widthSize={480}
+                        heighSize={300}
                     />
                 </div>
 
                 <div className={classes.pie}>
                     <PieVizChart
                         data={domainData}
-                        x={200}
-                        y={200}
-                        widthSize={500}
-                        heighSize={500}
+                        title={'Domain'}
+                        widthSize={480}
+                        heighSize={300}
                     />
                 </div>
 
                 <div className={classes.word}>
+                    <h2>Standards Landscape Cloud</h2>
                     <WordCloud
                         data={wordCloudData}
                         fontSizeMapper={fontSizeMapper}

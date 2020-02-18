@@ -6,6 +6,7 @@ import Landscape from "./pages/Landscape";
 import Standards from "./pages/Standards";
 import About from "./pages/About";
 import StandardDetails from "./pages/StandardDetail";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
               <StandardDetails/>
           </Route>
       </Switch>
+
+      <Footer/>
     </>
   );
 }

@@ -20,52 +20,40 @@ function ContextProvider (props){
         });
     };
 
-    const createNexusData = (data) => {
-        return [
-            {name:'Water', value : 100},
-            {name:'Energy', value : 4000},
-            {name:'Food', value : 300}
-        ]
-    };
-
     const transformPieDataFormat = (data) => {
-      return Object.keys(data).map((keyItem) => {
-          return {
-              'name': keyItem,
-              'value': data[keyItem]
-          }
-      })
+        return Object.keys(data).map((keyItem) => {
+            return {
+                'name': keyItem,
+                'value': data[keyItem]
+            }
+        })
     };
 
-    const createIctDomainData = (data) => {
-        let domain = {};
+    const getJSONfromArrayObject = (data, itemData) =>{
+        let jsonData = {};
         data.forEach( (value) => {
-            value.domain.forEach((keyItem) => {
-                if (domain.hasOwnProperty(keyItem)){
-                    domain[keyItem] ++;
+            value[itemData].forEach((keyItem) => {
+                if (jsonData.hasOwnProperty(keyItem)){
+                    jsonData[keyItem] ++;
                 } else {
-                    domain[keyItem] = 1;
+                    jsonData[keyItem] = 1;
                 }
             });
         });
+        return jsonData;
+    };
 
+    const createPieData = (data, itemData) => {
+        let domain = getJSONfromArrayObject(data, itemData);
         return transformPieDataFormat(domain);
-        /*return [
-            {name: 'High Level Arch.', value: 200},
-            {name: 'APIs', value : 100},
-            {name: 'Monitoring', value: 50},
-            {name: 'Physical systems', value: 25},
-            {name: 'Nexus', value: 30},
-            {name: 'Customer relationship', value:350}
-        ]*/
     };
 
     const loadData = () => {
         setIsLoading(true);
         setData (Data);
         const updateData = createWordCloud(Data);
-        const updateNexusData = createNexusData(Data);
-        const updateDomainData = createIctDomainData(Data);
+        const updateNexusData = createPieData(Data, 'nexus');
+        const updateDomainData = createPieData(Data, 'domain');
         setWordCloudData(updateData);
         setNexusData(updateNexusData);
         setDomainData(updateDomainData);
